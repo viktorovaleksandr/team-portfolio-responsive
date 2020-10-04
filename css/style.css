@@ -73,7 +73,6 @@ header .textarea-top {
 	resize: none;
 	overflow: auto;
 	background: #000;
-	border: none !important;	
 }
 
 header .contact-form label {
