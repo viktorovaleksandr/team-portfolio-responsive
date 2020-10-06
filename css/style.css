@@ -10,6 +10,7 @@ body {
 	margin: 0;
 	min-width: 320px;
 	font-family: 'Montserrat', sans-serif;
+	/*background-color: yellow;*/
 
 }
 header {
@@ -84,10 +85,10 @@ header {
 	left: 0;
 }
 .burger-menu-line:before {
-	top: 10px;
+	top: 13px;
 }
 .burger-menu-line:after {
-	top: 20px;
+	top: 25px;
 }
 header .contact-form {
 	display: none;
@@ -122,8 +123,8 @@ header .contact-form {
 	background: #000;
 }
 
-.slick-slider img {
- 	
+.slick-slider img {	
+	margin: 0 auto;
 }
 
 
@@ -159,16 +160,13 @@ header .contact-form {
 	line-height: 35px;
 }
 
-.text .mark {
-	background-color: inherit;
-	font-size: 48px;
-	
+.text .mark {	
+	font-size: 48px;	
 }
 
 .article-container{
 	display: flex;
 	justify-content: space-between;
-	/*padding: 60px 0 0;*/
 }
 .text-container {
     flex-basis: 500px;
@@ -176,14 +174,12 @@ header .contact-form {
     display: flex;
     align-items: center;
 }
-.history-section .text{
-	
+.history-section .text{	
 	font-size:18px;
 	color:#fff;
 	padding: 50px;
 	/*flex-grow: 1;*/
-	line-height: 23px;
-	
+	line-height: 23px;	
 }
 
 /*-------------footer-contact-form----------*/
@@ -223,7 +219,6 @@ header .contact-form {
 	top: 10px;
 	font-family: "Montserrat", sans-serif;
 	display: inline-block;
-
 }
 
 .contact-form textarea {
@@ -233,7 +228,6 @@ header .contact-form {
     resize: none;
     padding: 49px 30px;
     font-size: 18px;
-
 }
 
 /*-------------contact-form----------*/
@@ -242,15 +236,13 @@ header .contact-form {
 
 /* tablet */
 
-@media only screen
-and (min-width: 768px)
-and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 	body{
-		max-width: 1024px;
+		/*max-width: 1024px;*/
 	}
 	.wrapper {
 		padding: 204px 48px 0;
-		/*max-width: 928px;*/
+		max-width: 1024px;
 	}
 	header {
 		position: absolute;
@@ -300,8 +292,7 @@ and (max-width: 1024px) {
 		display: none;
 	}
 	.menu-open header .contact-form {
-		display: block;
-		
+		display: block;		
 	}
 
 	.menu-open header .contact-form textarea{
@@ -316,13 +307,10 @@ and (max-width: 1024px) {
 	.menu-open header .contact-form button {
 	background: #fff;
     color: #000;
-
    }
 
     .main-section{
     	padding: 49px 52px 47px;
-    	/*max-width: 824;
-    	margin: 0 auto;*/
     }
 
     .main-section .text{
@@ -343,10 +331,6 @@ and (max-width: 1024px) {
     margin: 0 0 32px;
 }
 
-	/*.history-section .text:first-child {
-    margin-right: 0;
-    padding: 48px;
-}*/
 	.history-section {
 		padding: 0 0 32px;
 	}
@@ -361,41 +345,16 @@ and (max-width: 1024px) {
 	
 }
 
-/* 415-767 */
 
 
 @media only screen
-and (min-width: 415px)
 and (max-width: 768px) {
-	.wrapper {
-		padding: 204px 48px 0;
-		/*max-width: 928px;*/
-	}
-	header {
-		position: absolute;
-		top: 0;
-		left: 0;
-	    width: 100%;
-	    z-index: 1;
-	    padding: 48px 48px 96px;
-	}
-	.logo{
-		margin: 0 auto;
-	}
-
-	.logo-img{
-		width: 80px;
-		height: 48px;
-	}
-	.nav {
-		display: none;
-	}
+	.wrapper {		
+		max-width: 768px;		
+	}	
 	
-	.burger-menu {
-		display: block;
-	}
 	.container{
-		max-width: 928px;
+		max-width: 768px;
 	}
 
 	/*-----menu-open-styles-------*/
@@ -438,10 +397,8 @@ and (max-width: 768px) {
 
    }
 
-	.slick-slider img{
-		margin: 0 auto;
-
-	}
+   /*--------------menu-open styles-----------------*/
+	
 
 	.slick-dots{
 		padding: 24px 0 0;
@@ -464,16 +421,13 @@ and (max-width: 768px) {
    
    .article-container{
 		padding: 0 0 24px;
-		display: block;
+		
 	}
 
 	.history-section {
     padding: 0;
 }
-	.history-section .text:first-child {
-    margin-right: 0;
-    padding: 20px;
-}
+	
 	.history-section .text{
 		padding: 20px;
 		font-size: 16px;
@@ -486,23 +440,20 @@ and (max-width: 768px) {
 	.title{
 		font-size: 20px;
 		line-height: normal;
-		margin: 0 0 24px;
+		margin-bottom: 24px;
 	}
 
-	.footer .title{
-		margin: 0 0 24px;
-	}
 
 	.footer .contact-form{
 		display: block;
 	}
 
 	.footer .contact-form button {
-     position: static; 
-    width: 100%;
-     transform: none;
-     font-size: 24px;
-     line-height: normal;
+	    position: static; 
+	    width: 100%;
+	    transform: none;
+	    font-size: 24px;
+	    line-height: normal;
 	}
 	.footer .title {
 	    margin-bottom: 24px;
@@ -520,41 +471,32 @@ and (max-width: 768px) {
 	    font-size: 24px;
 	    line-height: normal;
 	    display: block;
-
-
-}
+	}
 }
 
 /* mobile */
-
-
-@media only screen
-and (min-width: 0)
-and (max-width: 415px) {
+@media only screen and (max-width: 415px) {
 	.wrapper{
-		max-width: 600px;
+		max-width: 415px;
+		padding:0;
 	}
 
 	header{
-		padding: 20px 0 0 20px;
-	    position: absolute;
-	    z-index: 2;
+		padding: 20px 0 0 20px;	   
 	}
+
 	.logo {
 		display: none;
-	}
-	.nav {
-		display: none;
-	}
+	}	
 
 	.burger-menu {
 		display: block;
 	}
+
 	.burger-menu-line,
 	.burger-menu-line:before,
     .burger-menu-line:after {
-        background: #fff;
-    }
+        background: #fff;    }
    
 
 	.menu-open header {
@@ -574,84 +516,14 @@ and (max-width: 415px) {
 	.slick-slider img{
 		width: 100%;
 	}
-	.slick-dots{
-		padding: 24px 0 0;
-	}
+	
 	.slick-dots button {
     width: 8px;
     height: 8px;
-   }
-   .main-section{
-   	padding: 24px 0;
-   }
-   .main-section .text{
-   	font-size: 16px;
-   	padding: 0;
-   	line-height: 20px;
-   }	
-
+   }   
+   
    .container{
    	margin: 0 20px;
-   }
-
-   .article-container{
-		padding: 0 0 24px;
-		display: block;
-	}
-
-	.history-section {
-    padding: 0;
-}
-	.history-section .text:first-child {
-    margin-right: 0;
-    padding: 20px;
-}
-	.history-section .text{
-		padding: 20px;
-		font-size: 16px;
-	}
-
-	.text-container + .text-container{
-		margin-top: 24px;
-	}
-
-	.title{
-		font-size: 20px;
-		line-height: normal;
-		margin: 0 0 24px;
-	}
-
-	.footer .title{
-		margin: 0 0 24px;
-	}
-
-	.footer .contact-form{
-		display: block;
-	}
-
-	.footer .contact-form button {
-     position: static; 
-    width: 100%;
-     transform: none;
-     font-size: 24px;
-     line-height: normal;
-	}
-	.footer .title {
-	    margin-bottom: 24px;
-	}
-
-	.contact-form textarea{
-		margin-bottom: 19px;
-		height: 150px;
-		padding: 20px 20px 0 20px;
-	}
-
-	
-
-	.text .mark {    
-	    font-size: 24px;
-	    line-height: normal;
-	    display: block;
-
+   }	
 
 }
