@@ -126,25 +126,23 @@ header .contact-form-button:hover {
 /*------------carousel-------------------*/
 
 
-.slick-dots{
+.slick-dots {
 	list-style: none;
 	display: flex;
 	justify-content: center;
 	margin: 0;
-	padding:40px 0 0;
+	padding:40px 0;
 }
-.slick-dots button{  /*  ??????  */
-	margin: 0 5px;
-}
-
 .slick-dots button{
-	background: none;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid #000;
 	width: 20px;
 	height: 20px;
-	border: 1px solid #000;
-	border-radius: 50%;
 	font-size: 0;
 	outline: none;
+	margin: 0 5px;
+	cursor: pointer;
 }
 .slick-dots .slick-active button {
 	background: #000;
@@ -152,6 +150,8 @@ header .contact-form-button:hover {
 
 .slick-slider img {	
 	margin: 0 auto;
+	width: 400px;
+	height:200px;
 }
 
 
@@ -461,14 +461,18 @@ and (max-width: 768px) {
    /*--------------menu-open styles-----------------*/
 	
 
-	.slick-dots{
+	
+	.slick-slider img {
+		width: 375px;
+		height: 180px; 
+	}
+	.slick-dots {
 		padding: 24px 0 0;
 	}
 	.slick-dots button {
-    width: 8px;
-    height: 8px;
+    	width: 8px;
+    	height: 8px;
    }
-
 
    .main-section{
    	padding: 24px 0;
@@ -479,7 +483,10 @@ and (max-width: 768px) {
    	line-height: 20px;
    }	
 
-   
+   .container{
+   	margin: 0 20px;
+   }
+
    .article-container{
 		padding: 0 0 24px;
 		
