@@ -128,13 +128,15 @@ header .contact-form {
 /*-------------carousel--------------*/
 
 
-
+.history-section{
+	padding: 0 0 60px;
+}
 
 .title {
 	display: block;
 	width: 100%;
 	font-size: 40px;
-	line-height: 40px;
+	line-height: 49px;
 	color: #000;
 	text-align: center;
 	border-bottom: 1px solid #000;
@@ -150,7 +152,7 @@ header .contact-form {
 	text-align: center;
 	color: #000;
 	font-size: 28px; 
-	padding: 0 52px;
+	line-height: 35px;
 }
 
 .text .mark {
@@ -162,22 +164,22 @@ header .contact-form {
 .article-container{
 	display: flex;
 	justify-content: space-between;
-	padding: 60px 0 60px;
+	padding: 60px 0 0;
 }
-
+.text-container {
+    flex-basis: 500px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
 .history-section .text{
-	background-color: #000;
+	
 	font-size:18px;
 	color:#fff;
 	padding: 50px;
-	flex-grow: 1;
-	flex-basis: 500px;
+	/*flex-grow: 1;*/
+	line-height: 23px;
 	
-}
-
-.history-section .text:first-child{
-	margin-right: 28px;
-	padding: 94px 50px;
 }
 
 /*-------------footer-contact-form----------*/
