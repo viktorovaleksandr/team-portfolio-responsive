@@ -463,7 +463,7 @@ and (max-width: 768px) {
 
 	
 	.slick-slider img {
-		width: 375px;
+		width: 100%;
 		height: 180px; 
 	}
 	.slick-dots {
