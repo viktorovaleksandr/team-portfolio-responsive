@@ -18,7 +18,6 @@ $(document).ready(function(){
 					        dots: true
 					      }
 					    },
-
 					    {
 					      breakpoint: 950,
 					      settings: {
