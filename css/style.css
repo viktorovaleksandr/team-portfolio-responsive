@@ -363,7 +363,6 @@ header .contact-form {
 	}
 	.menu-open header .contact-form textarea{
 		background-color: transparent;
-		border: 1px solid #fff;
 	}
 	.menu-open header .contact-form textarea::placeholder{
 		color: #fff;
