@@ -458,6 +458,7 @@ and (max-width: 768px) {
 	
 
 	.slick-slider img {
+		height: 180px;
 	}
 	.slick-dots {
 		padding: 24px 0 0;
