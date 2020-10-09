@@ -696,6 +696,8 @@ header .contact-form-button {
 	.menu-open .burger-menu-lines {
     	background-color: transparent;
 	}
+<<<<<<< HEAD
+=======
 	.menu-open .burger-menu-lines::before {
     	top: 0;
     	transform: rotate(45deg);
@@ -724,6 +726,7 @@ header .contact-form-button {
 		height: 180px;
 		width: 100%;
 	}
+>>>>>>> cf14002f9b327dce6e24d06a6f91dfef00b1b722
 	
 	.slick-dots button {
     width: 8px;
