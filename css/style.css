@@ -144,6 +144,7 @@ header .contact-form-button:hover {
 	outline: none;
 	margin: 0 5px;
 	cursor: pointer;
+		cursor: pointer;
 }
 .slick-dots .slick-active button {
 	background: #000;
