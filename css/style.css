@@ -621,10 +621,6 @@ header .contact-form-button {
 	.menu-open .burger-menu-line:after {
 		display: none;
 	}
-
-	.slick-slider img{
-		width: 100%;
-	}
 	
 	.slick-dots button {
     width: 8px;
